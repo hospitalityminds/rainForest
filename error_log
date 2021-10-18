@@ -1,0 +1,2 @@
+[06-Dec-2017 11:01:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in /home/rainfore/public_html/contact-form.php on line 38
+[06-Dec-2017 11:04:44 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rainfore/public_html/contact-form.php:36) in /home/rainfore/public_html/contact-form.php on line 38

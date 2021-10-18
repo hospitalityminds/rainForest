@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poiret One", cursive;
+}
+
+p, li, a {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .display-large {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .display-small {
+    display: none;
+  }
+}
+hr {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+.navbar-brand img {
+  height: 100px;
+}
+
+.navbar-nav .nav-link {
+  color: #000000 !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.flexo-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flexo-nav p a {
+  color: #4F7A12;
+  font-weight: 900;
+}
+
+.flexo-nav1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flexo-nav1 .link {
+  font-size: 20px;
+}
+.flexo-nav1 .link a i {
+  color: #ffffff;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4F7A12;
+}
+.display-flex div {
+  padding: 5px 0;
+}
+.display-flex div h6 a {
+  color: #ffffff;
+}
+
+.home-main {
+  padding: 40px 0;
+}
+
+.home-accommodation {
+  padding: 20px 0;
+}
+
+.room-tab {
+  padding: 20px 0;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #4F7A12;
+  border-color: #4F7A12;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #4F7A12;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.nav-pills .nav-link {
+  background-color: #ffffff;
+  color: #4F7A12;
+  border: 1px solid #4F7A12;
+  border-radius: 0;
+  font-size: 13px;
+}
+.nav-pills .active {
+  background-color: #4F7A12 !important;
+  color: #ffffff !important;
+}
+
+.home-other-content {
+  padding: 30px 0;
+}
+.home-other-content .container-fluid {
+  background-color: #4F7A12;
+}
+.home-other-content .container-fluid .row .col-md-6 {
+  height: 450px;
+}
+.home-other-content .container-fluid .row .other-content {
+  padding: 60px 30px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #4F7A12;
+  padding: 60px 20px 15px 20px;
+}
+.footer .row .col-md-3 {
+  color: #ffffff;
+}
+.footer .row .col-md-3 p {
+  font-size: 12px;
+}
+.footer .row .col-md-3 p a {
+  color: #ffffff;
+}
+.footer .row .col-md-3 p span {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.footer .row .col-md-3 h5 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.footer .row .col-md-3 div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .row .col-md-3 div .link {
+  font-size: 20px;
+}
+.footer .creator {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .creator p {
+  color: #ffffff;
+  font-size: 12px;
+}
+.footer .creator p a {
+  color: deeppink;
+  font-weight: 900;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+  padding: 5px;
+}
+
+.form-group input {
+  border: 1px solid #4F7A12;
+  border-radius: 0;
+}
+.form-group textarea {
+  border: 1px solid #4F7A12;
+  border-radius: 0;
+}
+
+.contact-other-content {
+  padding: 30px 0;
+}
+.contact-other-content .container-fluid {
+  background-color: #4F7A12;
+}
+.contact-other-content .container-fluid .row .col-md-6 {
+  height: auto;
+}
+.contact-other-content .container-fluid .row .other-content {
+  padding: 60px 30px;
+  color: #ffffff;
+}
+.contact-other-content .container-fluid .row .other-content div p a {
+  color: #ffffff;
+}
+.contact-other-content .container-fluid .row .other-content .row {
+  padding: 0;
+  margin: 0;
+}
+.contact-other-content .container-fluid .row .other-content .row .col-md-4 {
+  padding: 0;
+  margin: 0;
+}
+
+.clip-path {
+  clip-path: polygon(20% 0, 100% 20%, 100% 90%, 80% 100%, 0 80%, 0 10%);
+}
+
+.sightseeing-other-content {
+  padding: 30px 0;
+}
+.sightseeing-other-content .container-fluid {
+  background-color: #ffffff;
+}
+.sightseeing-other-content .container-fluid .row .col-md-6 {
+  height: 500px;
+}
+.sightseeing-other-content .container-fluid .row .other-content {
+  padding: 60px 30px;
+  color: #ffffff;
+}
+
+.wedding-other-content {
+  padding: 30px 0;
+}
+.wedding-other-content .container-fluid {
+  background-color: #ffffff;
+}
+.wedding-other-content .container-fluid .row .col-md-6 {
+  height: 700px !important;
+}
+.wedding-other-content .container-fluid .row .other-content {
+  padding: 60px 30px;
+  color: #ffffff;
+}
+
+.rainforest-gallery {
+  padding: 40px 0 !important;
+}
+.rainforest-gallery .row {
+  padding: 20px 0 !important;
+}
+
+.testimonial {
+  padding: 40px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
